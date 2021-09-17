@@ -161,7 +161,7 @@ class _HomePageState extends State<HomePage> {
   void scores() {
     for (int i = 0; i < barrierX.length; i++) {
       if (barrierX[i] <= birdWidth &&
-          barrierX[i] + barrierWidth / 10 >= -birdWidth &&
+          barrierX[i] + barrierWidth / 50 >= -birdWidth &&
           (birdY >= -1 + barrierHeight[i][0] ||
               birdY + birdHeight <= 1 - barrierHeight[i][1])) {
         // setState(() {
